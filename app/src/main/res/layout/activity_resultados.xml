@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultados">
+
+    <TextView
+        android:id="@+id/lblcali"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center_vertical"
+        android:text="@string/lblcali"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblerror" />
+
+    <TextView
+        android:id="@+id/lblerror"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center_vertical"
+        android:text="@string/lblerrores"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblaci" />
+
+    <TextView
+        android:id="@+id/lblaci"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center_vertical"
+        android:text="@string/lblaciertos"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="247dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center|center_horizontal"
+        android:text="@string/resul"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

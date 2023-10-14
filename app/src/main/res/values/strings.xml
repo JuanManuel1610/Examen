@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Examen</string>
+    <string name="examen">EXAMEN</string>
+    <string name="pre1">1.-¿Cuándo acabó la II Guerra Mundial?</string>
+    <string name="rb1">1945</string>
+    <string name="rb2">1950</string>
+    <string name="rb3">1645</string>
+
+
+    <string name="pre2">¿Quién pintó “la última cena”?</string>
+
+    <string name="atras">Atras</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="rb4">Leonardo DaVinci.</string>
+    <string name="rb5">Nose</string>
+    <string name="rb6">Arbertossi</string>
+    <string name="btncali">Calificar</string>
+    <string name="resul">RESULTADOS\n</string>
+    <string name="lblaciertos">Aciertos</string>
+    <string name="lblerrores">Errores</string>
+    <string name="lblcali">Calificacion</string>
+    <string name="titulo2">1.-¿Quien descubrio america?</string>
+    <string name="res1">"a)Cristobal colon "</string>
+    <string name="res2">b)Nose</string>
+    <string name="res3">c)El pepe</string>
+
+
+</resources>
